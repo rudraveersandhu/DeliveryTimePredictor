@@ -1,0 +1,30 @@
+# loading and wrangling the CSV
+pandas
+numpy
+
+# the Pipeline, preprocessing transformers, cross-validation
+scikit-learn
+
+#your actual models
+xgboost
+
+# EDA plots
+matplotlib
+seaborn
+
+# runs your .ipynb notebook
+jupyter
+
+# experiment tracking
+wandb
+
+#the API and the server that runs it
+fastapi
+uvicorn[standard]
+
+# saving/loading your trained pipeline
+joblib
+
+# ----------------------------------------------------------------------------------------------------------------------
+# Instead of a requirements.txt + pip install, use uv 
+# uv add pandas numpy scikit-learn xgboost matplotlib seaborn jupyter wandb fastapi "uvicorn[standard]" joblib
