@@ -1,0 +1,81 @@
+{
+  "categorical_options": {
+    "Weatherconditions": [
+      "Cloudy",
+      "Fog",
+      "Sandstorms",
+      "Stormy",
+      "Sunny",
+      "Windy"
+    ],
+    "Road_traffic_density": [
+      "High",
+      "Jam",
+      "Low",
+      "Medium"
+    ],
+    "Type_of_order": [
+      "Buffet",
+      "Drinks",
+      "Meal",
+      "Snack"
+    ],
+    "Type_of_vehicle": [
+      "bicycle",
+      "electric_scooter",
+      "motorcycle",
+      "scooter"
+    ],
+    "Festival": [
+      "No",
+      "Yes"
+    ],
+    "City": [
+      "Metropolitian",
+      "Semi-Urban",
+      "Urban"
+    ]
+  },
+  "numeric_ranges": {
+    "Delivery_person_Age": {
+      "min": 15.0,
+      "max": 50.0,
+      "median": 30.0
+    },
+    "Delivery_person_Ratings": {
+      "min": 1.0,
+      "max": 6.0,
+      "median": 4.7
+    },
+    "Vehicle_condition": {
+      "min": 0.0,
+      "max": 3.0,
+      "median": 1.0
+    },
+    "multiple_deliveries": {
+      "min": 0.0,
+      "max": 3.0,
+      "median": 1.0
+    }
+  },
+  "late_threshold_min": 30,
+  "numeric_features": [
+    "Delivery_person_Age",
+    "Delivery_person_Ratings",
+    "Vehicle_condition",
+    "multiple_deliveries",
+    "distance_km",
+    "prep_lag_min",
+    "order_hour",
+    "order_dayofweek",
+    "is_weekend"
+  ],
+  "categorical_features": [
+    "Weatherconditions",
+    "Road_traffic_density",
+    "Type_of_order",
+    "Type_of_vehicle",
+    "Festival",
+    "City"
+  ]
+}
